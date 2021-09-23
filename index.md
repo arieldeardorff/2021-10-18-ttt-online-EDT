@@ -1,24 +1,20 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+country: "US"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "EN"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+humandate: "Oct 18-21, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9am - 1pm PDT/ 12pm - 4pm EDT"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2021-10-18      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2021-10-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Ariel Deardorff", "Sarah Pugachev"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: ["ariel.deardorff@ucsf.edu", "sarah.c.clayton@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad:             # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:
   - venue: "Online"
     address: ""
-
-  - venue: "Euphoria University"
-    address: "Room A, 123 Forth Street, Blimingen, Euphoria"
-    latlng: "41.7901128,-87.6007318"
 
 ---
 
@@ -76,7 +72,7 @@ locations:
   <a href="{{ site.swc_site }}">Software Carpentry</a>'s mission is to
   help scientists, researchers, and librarians get more research done in less time
   and with less pain by teaching them basic lab skills for scientific
-  computing.  This hands-on two-day workshop covers the basics of
+  computing.  This hands-on four-day workshop covers the basics of
   educational psychology and instructional design, and looks at how to
   use these ideas in both intensive workshops and regular classes.
 </p>
@@ -126,32 +122,13 @@ This is an online event. We will meet using the online videoconference software 
 
 <h4 id="accessibility">Accessibility</h4>
 
-We are committed to making this workshop
-accessible to everybody.
-The workshop organisers have checked that:
-
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-
-Materials will be provided in advance of the workshop and
-large-print handouts are available if needed by notifying the
-organizers in advance.  If we can help making learning easier for
-you (e.g. sign-language interpreters, lactation facilities) please
-please get in touch (using contact details below) and we will
-attempt to provide them.
+We are dedicated to providing a positive and accessible learning environment for all. Please notify the instructors in advance of the workshop if you require any accommodations or if there is anything we can do to make this workshop more accessible to you. 
 
 {% endif %}
 
 <h3>Requirements</h3>
 
-Participants should bring a laptop that is Internet connected and has a
-functioning browser. If you have it, a device for recording audio and video
-(mobile phones and laptops are OK) is useful as throughout the two days, we
-are going to record one another teaching in pairs or threes. It does not have
-to be high-quality, but it should be good enough that you can understand what
-someone is saying.
+Participants must have access to a computer with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed below). 
 
 Please note that after this course is over, you will be asked to do
 three short follow-up exercises online in order to finish qualifying
@@ -214,10 +191,10 @@ for more information.
 
 <hr/>
 
-<h2 id="materials" name="materials">Training Materials and Schedule</h2>
+<h2 id="materials" name="materials">Training Materials</h2>
 
 <p>
-  Please see <a href="{{ site.training_site }}">this site</a> for course material and tentative schedule.
+  Please see <a href="https://data-lessons.github.io/instructor-training/">this site</a> for course materials.
 </p>
 
 
